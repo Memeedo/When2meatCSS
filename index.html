@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Activity</title>
+
+    <link rel="stylesheet" href="When2Meet clone.css">
+</head>
+
+<body>
+    <nav id="NavBar">
+
+        <h1>When2Meet</h1>
+
+        <ul>
+    
+            <li><a href="#event">Create Event</a></li>
+            <li><a href="#IA">Select Availability</a></li>
+            <li><a href="#VR">View Results</a></li>
+            <li><a href="#SU">Sign up</a></li>
+    
+        </ul>
+
+    </nav>
+    
+
+    <div id="event">
+
+
+        <h2 id="event">Create Event</h2>
+
+        <form action="" id="CreateEvent" >
+            <label for="eventname" >Event name:</label>
+            <input type="text" name="eventname" class="createClass" required>
+            <label for="eventdes">Event Descripiton: </label>
+            <textarea name="eventdes" id="" class="createClass" required></textarea>
+            <label for="startdate">Start date: </label>
+            <input type="date" name="startdate" class="createClass" required>
+            <label for="enddate">End date: </label>
+            <input type="date" name="enddate" class="createClass" required>
+            <label for="timeincrement">Time Increment: </label>
+            <select name="timeincrement" id="" class="createClass" required>
+                <option value="15">15 Minutes</option>
+                <option value="30">30 Minutes</option>
+                <option value="45">45 Minutes</option>
+    
+    
+    
+            </select>
+    
+            <input type="submit" value="Create Event" class="createClass">
+    
+        </form>
+
+    </div>
+    
+
+    <div id="IA">
+        <h2 id="IA">Input Availability</h2>
+
+        <table id="IA_table">
+    
+    
+            <form action="">
+    
+    
+    
+    
+                <tr>
+                    <th>Time</th>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+    
+                </tr>
+    
+                <tr>
+    
+    
+    
+                    <label for="timeavailablity"></label>
+                    <td>9:00 AM</td>
+                    <td><input type="checkbox" name="timeavailablity"></td>
+                    <td><input type="checkbox" name="timeavailablity"></td>
+                    <td><input type="checkbox" name="timeavailablity"></td>
+                    <td><input type="checkbox" name="timeavailablity"></td>
+                    <td><input type="checkbox" name="timeavailablity"></td>
+    
+                </tr>
+    
+                <tr>
+    
+    
+                    <td><input type="submit" value="Submit Availability"></td>
+                </tr>
+            </form>
+        </table>
+    
+
+
+    </div>
+    
+
+   
+     <div id="VR">
+
+
+        <h2 id="VR">View Results</h2>
+
+        <table id="VR_table">
+    
+            <tr>
+                <th>Time</th>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+    
+            </tr>
+    
+    
+            <tr>
+                <td> 9:00 AM </td>
+                <td>3 available</td>
+                <td>2 available</td>
+                <td>4 available</td>
+                <td>1 available</td>
+                <td>5 available</td>
+    
+    
+    
+    
+            </tr>
+    
+    
+        </table>
+
+
+
+
+     </div>
+   
+
+
+    <label for="link" id="the_link">Searchable Link: </label>
+    <a href="link" id="the_link">https://www.when2meet.com/</a>
+
+
+    <div id="SU">
+
+        <h2 id="SU">Sign up</h2>
+
+        <form action="" id="submit_form">
+    
+    
+            <label for="username" class="su_class">Username: </label>
+            <input type="text" name="username" class="su_class">
+            <label for="email" class="su_class">Email: </label>
+            <input type="email" name="email" class="su_class">
+            <label for="password" class="su_class">Password: </label>
+            <input type="password" name="password" class="su_class"> 
+    
+            <input type="submit" value="Sign up" class="su_class" id="submit_button" >
+    
+    
+    
+        </form>
+    
+
+
+
+
+    </div>
+
+    <footer><sup>®</sup>2024 When2Meet. All rights reserved</footer>
+
+
+</body>
+
+</html>

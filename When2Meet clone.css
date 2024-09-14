@@ -1,0 +1,168 @@
+
+body {
+    background-color: beige;
+    
+    margin: auto;
+}
+
+#NavBar{
+
+    
+padding: 20px;
+margin: auto;
+text-align: center;
+
+background-color: grey;
+
+}
+
+ul a {
+font-size: 25px;
+color: rgb(53, 46, 34);
+
+
+}
+
+ul a:hover {
+    
+    background-color: rgb(177, 164, 164);
+
+
+}
+
+a{
+    margin-left: 20px;
+    
+    color: rgb(122, 30, 30);
+}
+
+#the_link a:hover{
+    background-color: rgb(10, 8, 8);
+
+
+}
+
+
+
+
+li {
+    background-color: rgb(170, 170, 170);
+    display: inline;
+    margin: 3%;
+    height: 50px;
+    padding: 8px 20px 8px 20px;
+   
+
+}
+
+#NavBar h1{
+font-size: 30px;
+color: rgb(48, 26, 10);
+
+}
+
+h1,h2 {
+
+color: rgb(122, 49, 17);
+text-align: center;
+
+
+}
+
+#event,#IA,#VR,#SU{
+   
+padding: 20px;
+margin: 1%;
+background-color: rgba(50, 50, 24, 0.249);
+
+
+}
+
+#CreateEvent label,#IA label,#VR label{
+
+    display: block;
+    text-align: center;
+
+}
+
+#CreateEvent, #IA ,#VR {
+text-align: center;
+}
+
+
+
+
+input, textarea,select{
+    border-radius: 50px;
+    border-style: hidden;
+    background-color: rgb(203, 200, 200);
+
+
+}
+
+
+
+input{
+width: 200px;
+
+
+
+}
+
+
+input:hover{
+
+
+    background-color: white;
+
+
+}
+
+
+#IA_table th,td, #VR_table th,td{
+
+    padding:9px;
+    border:2px;
+    border-color: black;
+    border-style: solid;
+    text-align:center;
+
+
+
+
+}
+
+#submit_form{
+
+   display: inline-block;
+    margin-left: 100px;
+
+}
+
+.su_class{
+
+
+    display: block;
+    margin-left: 100px;
+
+}
+
+#submit_button{
+
+margin-top: 20px;
+
+}
+
+
+footer{
+    background-color:#606c54;
+    padding:10px ;
+    text-align:center;
+    color:#ecdfcc;
+    
+  }
+  
+ 
+
+
+
